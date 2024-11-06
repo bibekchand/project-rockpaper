@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap");
+* {
+  margin: 0;
+}
+body {
+  background-image: radial-gradient(
+    circle at top left,
+    #43c23d,
+    #3d85c2,
+    #dd2255
+  );
+  background-position: cover;
+  min-height: 100vh;
+  box-sizing: border-box;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.header {
+  background-image:linear-gradient(45deg,#43C23D, #3D85C2, #DD2255);
+  border: 0.5px solid #dd2255;
+  border-radius: 45px;
+  text-align: center;
+  font-size: 4rem;
+  width: 495px;
+  box-shadow: 2px 4px 0px rgb(218, 218, 125);
+  margin: 0 auto;
+  
+}
+.content {
+  display: flex;
+  justify-content: space-evenly;
+}
+#imgtwo {
+  align-self: end;
+}
+.image {
+  border: 2px solid blueviolet;
+  border-radius: 30%;
+  transition: width 0.2s, height 0.2s;
+  box-shadow: 4px 5px 1px yellow;
+
+}
+.result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.middle {
+  text-align: center;
+  font-size: 3rem;
+}
+.image:hover {
+  filter: brightness(80%);
+  width: 160px;
+  height: auto;
+}
+.image:active{
+  border: 1px solid white;
+  width: 149px;
+  height: 149px;
+  box-shadow:2px 2px 2px rgb(212, 212, 129);
+}
+#computer {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.middle {
+  background-color: rgba(220, 176, 176, 0.2);
+}
+
